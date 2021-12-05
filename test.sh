@@ -6,7 +6,7 @@ echo -e "\033[32;1m"LIBFT TEST"\033[m"
 read $a
 git clone https://github.com/jtoty/Libftest
 cd Libftest/
-# ./grademe.sh
+./grademe.sh
 sed -i "" 's/~\/libft/..\//' my_config.sh
 ./grademe.sh
 cd ..
